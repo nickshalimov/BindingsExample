@@ -3,3 +3,4 @@ Temp
 .vscode
 *.csproj
 *.sln
+.idea
