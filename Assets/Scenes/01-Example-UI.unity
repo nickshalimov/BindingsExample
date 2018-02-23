@@ -238,7 +238,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactable:
-    _stream: {fileID: 167586380}
+    _expressions:
+    - _stream: {fileID: 389817992}
+      _inverse: 1
+      _condition: 0
+      _int: 0
+      _float: 0
+      _string: 
+      _otherStream: {fileID: 0}
+    _any: 0
 --- !u!114 &167586378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -423,7 +431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0343f910d67842eba6bbc2a68dd9d2da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _stream: {fileID: 319025542}
+  _text: {fileID: 319025542}
 --- !u!114 &319025544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1270,10 +1278,8 @@ GameObject:
   - component: {fileID: 1427673294}
   - component: {fileID: 1427673293}
   - component: {fileID: 1427673292}
-  - component: {fileID: 1427673291}
   - component: {fileID: 1427673290}
   - component: {fileID: 1427673289}
-  - component: {fileID: 1427673295}
   m_Layer: 5
   m_Name: Tab-02
   m_TagString: Untagged
@@ -1312,7 +1318,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactable:
-    _stream: {fileID: 1427673291}
+    _expressions:
+    - _stream: {fileID: 389817992}
+      _inverse: 1
+      _condition: 0
+      _int: 1
+      _float: 0
+      _string: 
+      _otherStream: {fileID: 0}
+    _any: 0
 --- !u!114 &1427673290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1325,42 +1339,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _stream: {fileID: 389817992}
---- !u!114 &1427673291
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1427673287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf13795c88ac446dbabe04a945313954, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _name: 
-  _value: 0
-  _conditions:
-  - _stream: {fileID: 389817992}
-    _inverse: 1
-    _condition: 0
-    _int: 1
-    _float: 0
-    _string: 
-    _otherStream: {fileID: 0}
-  - _stream: {fileID: 389817992}
-    _inverse: 1
-    _condition: 0
-    _int: 1
-    _float: 0
-    _string: 
-    _otherStream: {fileID: 0}
-  - _stream: {fileID: 389817992}
-    _inverse: 1
-    _condition: 0
-    _int: 1
-    _float: 0
-    _string: 
-    _otherStream: {fileID: 0}
-  _any: 0
 --- !u!114 &1427673292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1446,35 +1424,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1427673287}
---- !u!114 &1427673295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1427673287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf13795c88ac446dbabe04a945313954, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _name: 
-  _value: 0
-  _conditions:
-  - _stream: {fileID: 389817995}
-    _inverse: 0
-    _condition: 0
-    _int: 0
-    _float: 0
-    _string: 
-    _otherStream: {fileID: 0}
-  - _stream: {fileID: 389817995}
-    _inverse: 0
-    _condition: 0
-    _int: 0
-    _float: 0
-    _string: 
-    _otherStream: {fileID: 0}
-  _any: 0
 --- !u!1 &1710023924
 GameObject:
   m_ObjectHideFlags: 0
@@ -1486,7 +1435,6 @@ GameObject:
   - component: {fileID: 1710023931}
   - component: {fileID: 1710023930}
   - component: {fileID: 1710023929}
-  - component: {fileID: 1710023928}
   - component: {fileID: 1710023927}
   - component: {fileID: 1710023926}
   m_Layer: 5
@@ -1527,7 +1475,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactable:
-    _stream: {fileID: 1710023928}
+    _expressions:
+    - _stream: {fileID: 389817992}
+      _inverse: 1
+      _condition: 0
+      _int: 2
+      _float: 0
+      _string: 
+      _otherStream: {fileID: 0}
+    _any: 0
 --- !u!114 &1710023927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1540,28 +1496,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _stream: {fileID: 389817992}
---- !u!114 &1710023928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1710023924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf13795c88ac446dbabe04a945313954, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _name: Interactable
-  _value: 0
-  _conditions:
-  - _stream: {fileID: 389817992}
-    _inverse: 1
-    _condition: 0
-    _int: 2
-    _float: 0
-    _string: 
-    _otherStream: {fileID: 0}
-  _any: 0
 --- !u!114 &1710023929
 MonoBehaviour:
   m_ObjectHideFlags: 0
