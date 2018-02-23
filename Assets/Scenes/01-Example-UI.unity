@@ -197,7 +197,6 @@ GameObject:
   - component: {fileID: 167586379}
   - component: {fileID: 167586378}
   - component: {fileID: 167586382}
-  - component: {fileID: 167586380}
   - component: {fileID: 167586381}
   - component: {fileID: 167586377}
   m_Layer: 5
@@ -280,28 +279,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 167586375}
---- !u!114 &167586380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 167586375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf13795c88ac446dbabe04a945313954, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _name: 
-  _value: 0
-  _conditions:
-  - _stream: {fileID: 389817992}
-    _inverse: 1
-    _condition: 0
-    _int: 0
-    _float: 0
-    _string: 
-    _otherStream: {fileID: 0}
-  _any: 0
 --- !u!114 &167586381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -416,7 +393,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: Label
-  _value: 
   _values:
     _items:
     - {fileID: 389817992}
@@ -493,7 +469,6 @@ GameObject:
   - component: {fileID: 389817989}
   - component: {fileID: 389817991}
   - component: {fileID: 389817990}
-  - component: {fileID: 389817995}
   - component: {fileID: 389817992}
   - component: {fileID: 389817993}
   m_Layer: 5
@@ -581,36 +556,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _name: egreherh
-  _value: 0
-  prop:
-    _expressions:
-    - _stream: {fileID: 389817992}
-      _inverse: 0
-      _condition: 0
-      _int: 0
-      _float: 0
-      _string: 
-      _otherStream: {fileID: 0}
-    - _stream: {fileID: 389817993}
-      _inverse: 0
-      _condition: 0
-      _int: 0
-      _float: 0
-      _string: 
-      _otherStream: {fileID: 0}
-    _any: 1
---- !u!114 &389817995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 389817988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 700483a51e33482caa20a067ebeecb6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _name: Bool
   _value: 0
 --- !u!1 &432820963
 GameObject:
@@ -1663,7 +1608,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1748704410}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 437.5, y: 246, z: 0}
+  m_LocalPosition: {x: 412.5, y: 246, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 389817989}
